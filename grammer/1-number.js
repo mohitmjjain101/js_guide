@@ -12,8 +12,3 @@ console.log(z)      // gives output 2   // b converts to zero
 
 console.log(b ==2)  // in boolean context undefined gives false values.
 
-// String context
-
-var s;
-var s1 = s + 'hello';
-console.log(s)
