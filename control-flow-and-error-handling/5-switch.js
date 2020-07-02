@@ -10,5 +10,6 @@ switch(gender){
     case "Female":
     category = "Female";
     break;
+   
 }
 console.log(category);

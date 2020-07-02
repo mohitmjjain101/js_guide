@@ -17,4 +17,4 @@ function getMonthName(mo) {
     console.log(e) // pass exception object to error handler (i.e. your own function)
   }
 
-getMonthName(14)
+getMonthName(14)    //throw 'InvalidMonthNo'; // throw keyword is used here
