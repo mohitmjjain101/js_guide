@@ -14,3 +14,20 @@ labelCancelLoops: while (true) {
     }
   }
 }
+
+// Outer loops: 0
+// Inner loops: 1
+// Inner loops: 2
+// Inner loops: 3   // break
+// Outer loops: 1
+// Inner loops: 1
+// Inner loops: 2
+// Inner loops: 3   // break
+// Outer loops: 2
+// Inner loops: 1
+// Inner loops: 2
+// Inner loops: 3   // break
+// Outer loops: 3
+// Inner loops: 1
+// Inner loops: 2
+// Inner loops: 3   // break labelCancelLoops
